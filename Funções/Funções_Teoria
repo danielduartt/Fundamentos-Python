@@ -1,0 +1,100 @@
+-----------------------------------------------------------------------------
+SINTAXE: 'passagem de dados por referência'
+    def nome(parâmetros):
+        código
+        código
+    *EX1:
+        def mostrarLinhas():
+            print("---------")
+            
+    *Ex2:
+        def mensagem(msg):
+            print("---------")
+            print(msg)
+            print("---------")
+
+        mensagem('      SISTEMA')
+        >-----------------
+        >      SISTEMA
+        >-----------------
+
+    *Ex3:
+        def contador(*num): =>não sabe quantos valores serão passado
+        (*)desemmpacotar      todos os valores passados serão armazenados
+                              em num
+                'joga tudo dentro de num'
+        Obs:
+            Cria tudo em tuplas
+
+    *Ex4: PASSANDO LISTAS NA FUNÇÃO
+        def dobre(lst):
+            pos = 0
+            while pos < len(lst):
+                lst[pos] *= 2
+                pos += 1
+
+------------------------------------------------------------------------------
+OBS:
+    Caso explicite um, tem que explicitar o outro
+-------------------------------------------------------------------------------
+#INTERACTIVE HELP (ajuda interativa)
+    *help() -> função interna
+    Ex: (Console)
+    >>> help()
+    help> passe a função
+    exit() para sair
+
+    Ex2:
+        help(print)
+
+    Ex3: usando o doc
+        print(input.__doc__)
+-------------------------------------------------------------------------------
+#DOCSTRING => STRING DE DOCUMENTAÇÃO
+   *Ex:
+        def contador(i, f, p): (inicio, fim, passo)
+        help(contador) ?????????
+   *Sintaxe:
+        def contador(i, f, p):
+            """
+            i= inicio
+            f = fim
+            p=passo
+            """
+            código
+            código
+            código
+--------------------------------------------------------------------------------
+#PARÂMETROS OPCIONAIS
+    Ex:
+        soma(a, b, c = 0): (caso não apareça c vai ser zero)
+            s = a + b + c
+--------------------------------------------------------------------------------
+#ESCOPOS GLOBAIS E LOCAIS
+    Uma variável criada dentro de uma função vai ser local, pois só existe na funão
+    Uma variável criada fora de qualquer função é global
+    *Ex em c:
+        qualquer variável dentro do int main(){} é local
+        fora do main é global
+        pois qualquer função pode acessar ela
+    *Em python é muito parecido! contudo não tem função main, então
+        qualquer variável criada fora de uma função é global pois pode ser acessada
+        em outras funções
+        obs: é possivel criar uma cópia de uma variável global em uma local
+        ex = > def teste(b):
+                    a = 8 (cópia de a)
+                    b += 4 (local)
+                    c = 2
+             a = 0 (global)
+    Usando (return) = Igual em C..... e em qualquer linguagem kk
+
+
+
+
+
+
+
+
+
+
+

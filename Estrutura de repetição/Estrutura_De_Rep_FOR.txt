@@ -1,0 +1,5 @@
+ESTRUTURA DE REPETIÇÃO COM (FOR)
+SINTAXE: for c in range(0,3), c terá valores entre 0 e 3 = 0,1,2,3
+
+
+#Estrutura de repetição com variável de controle

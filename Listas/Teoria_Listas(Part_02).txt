@@ -1,0 +1,13 @@
+#RECAPTULANDO
+
+#CODIGOS CONHECIDOS:
+    dados = list()
+    dados.append('Pedro')
+    print(dados[0])
+
+#LISTA DENTRO DE LISTAS (LISTAS COMPOSTAS)
+    pessoas = list()
+    pessoas.append(dados[:]) => cópia de dados, o dados[:] é um fatiamento completo
+Matrizes => pessoas = [['Pedro',5],['Maria',19],['João',32]] => Listas Compostas
+    print(pessoas[0][0])
+  

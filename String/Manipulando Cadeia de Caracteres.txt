@@ -1,0 +1,41 @@
+MANIPULANDO STRINGS
+-------------------------------------------------------------------------------------------------------------------
+CADEIA DE TEXTO = STRING/ COMO MANIPULAR ELAS?
+
+*Fatiamento de string:
+
+    frase = "Curso em Video Python" indexado com o primeiro valor igual a zero
+    frase[9] = V (pegar uma letra)
+    frase[9:13] = Vide  (o 13 é excluido) O ULTIMO VALOR NAO ENTRA NA CONTAGEM
+    frase[9:14] = Video
+    frase[9:21:2] = VdoPto  (Pulando de 2 em 2)
+    frase[:5] =    (do início até o 5)
+    frase[5:] =    (do 5 até o ultimo)
+    frase[9::3] =    (9 até o final pulando de 3 em 30
+
+*Análise:
+
+    len(frase) = retorna o tamanha
+    frase.count(o) = conta quantas as vezes tem o 'o' na frase
+    frase.count(o, 0,13) = contagem com o fatiamento
+    frase.find('deo') =   quando começa esse trecho a frase = -1 caso nao exista
+    'Curso' in frase = true ou false = existe  'Curso' em frase
+
+ *Transformação
+    frase.replace('Python','Android') = onde tem 'Pyhton', troca por 'Android'
+    frase.upper()  (maisculo)
+    frase.lower()  (minusculo)
+    frase.capitalize()   (primeiro letra em maiusculo)
+    frase.title()      (todas as primeiras letras ficam maiusculas)
+    frase.strip()   (remove os primeiros espaçoes e os ultimos espaços unúteis)
+    frase.lstrip()  left = esquerda
+    frase.rstrip()  right = direita
+
+*Divisão
+    frase.split() = Onde tem espaço, ele corta e refaz os index e divide em outras listas
+
+*Junção
+    '-'.join(frase) = junta duas strings, onde tem espaço colocaria o '-'
+
+
+

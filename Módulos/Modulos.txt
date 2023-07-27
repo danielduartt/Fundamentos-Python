@@ -1,0 +1,25 @@
+UTILIZANDO MÓDULOS
+
+
+-------------------------------Sintaxe---------------------------------------
+1- import xxxxxx (importa tudo)
+2- from xxxxx import yyyyy  (importa só uma funcionalidade da biblioteca)
+
+
+
+------------------------------Caso 01----------------------------------------
+import math => para acessar as funcionalidades => math.ceil()
+from math import ceil => ceil diretão mesmo
+
+ceil = arredonda para cima
+floor = arredonda para baixo
+trunc = truncar
+pow = potencia
+sqrt = raiz quadrada
+factorial = fatorial
+
+import random
+random.random()
+random.randint(1,10)
+
+

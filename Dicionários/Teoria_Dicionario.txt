@@ -1,0 +1,31 @@
+DICIONÁRIO ESTRUTURA (CHAVE/VALOR) => identificados por '{}'
+
+SINTAXE:
+    dados = dict()
+    dados = {'nome':Pedro, 'idade':25}
+    print(dados['nome']) => Pedro
+    print(dados['idade']) => 25
+
+ADICIONAR ELEMENTOS:
+    dados['sexo'] = M
+    dados = {'nome' : 'Pedro', 'idade': 25, 'sexo': 'M'}
+
+REMOVER ELEMENTOS:
+    del dados['idade']
+    dados = {'nome' : 'Pedro','sexo': 'M'}
+
+CRIANDO:
+    filme = {'titulo':'Star Wars' ,
+              'ano': 1977,
+              'diretor': 'não lembro'
+            }
+CHAVE/ VALOR:
+    print(filme.value()) //valores
+    print(filme.keys()) //chaves
+    print(filme.items()) // todos
+
+    for k, v in filme.items(): //k=chave e v=valor
+        print(f"0 {k} é {v})
+    #1 = o titulo é Star Wars
+    #2 = o ano é 1977
+    #3 = o diretor é 'não lembro'

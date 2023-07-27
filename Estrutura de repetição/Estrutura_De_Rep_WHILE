@@ -1,0 +1,7 @@
+ESTRUTURA DE REPETIÇÃO COM WHILE
+SINTAXE:
+    while (condição):
+        codigo
+#Estrurura de repetição com teste lógico!
+
+-> enquanto a condição for verdadeira, as linhas de código abaixo serão incializadas

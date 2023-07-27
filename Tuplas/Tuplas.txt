@@ -1,0 +1,13 @@
+-----------------VARIÁVEIS COMPOSTAS = *TUPLAS*, LISTAS E DICIONÁRIOS-----------------
+PARTE TEÓRICA:
+    armazenar vários dados me uma "variável"
+    tuplas são variáveis compostas que são acessadas por meio de índices, sendo o primeiro sempre 0
+    lanche = ("macarronada", "pudim" , "amburgue", "laranja")
+    obs: TUPLAS SÃO IMUTÁVEIS
+SINTAXE:
+    nome= (dado1,dado2,dado3,......,danon)
+FUÇÕES:
+    print(lanche[-1]) => "laranja"/-2 = "amburque"
+    print(lanche[0:2]) => "macarronada","pudim"
+    len() => quantiade de dadso dentro da variável composta
+    for c in lanche => c vai receber todos os valores dentro de lanches

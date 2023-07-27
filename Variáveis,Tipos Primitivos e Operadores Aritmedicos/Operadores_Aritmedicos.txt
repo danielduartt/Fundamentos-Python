@@ -1,0 +1,15 @@
+'''
+adição = +
+subtração = -
+multiplicação = *
+divisão = /
+resto da div = %
+potência = **
+divisão inteira = //
+
+-----------------Ordem de precedência---------------
+1- Parenteses
+2- **
+3- * , / , // , % (quem aparecer primeiro)
+4- + e -
+'''

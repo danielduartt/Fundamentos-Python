@@ -1,0 +1,19 @@
+CONDIÇÕES
+if (se)
+else (se não)
+
+#SINTAXE:
+if(condição = true): (caso seja false, entra na condição else)
+    codigo
+    codigo
+    codigo
+else:
+    codigo
+    codigo
+    codigo
+
+#CONDIÇÃO SIMPLIFICADA
+tempo = int(input("Digite a idade do caro: "))
+print('carro novo' if tempo <= 3 else 'carro velho')
+Python não tem operador ternário
+mas essa estrutura é muito parecida 

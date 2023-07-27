@@ -1,0 +1,5 @@
+nome = input("Digite seu nome: ").strip()
+separacao = nome.split()
+print("Bem vindo(a), {}".format(nome))
+print(f"Seu primeiro nome é: {separacao[0]} ")
+print(f"Seu último nome é: {separacao[len(separacao) - 1]}")
