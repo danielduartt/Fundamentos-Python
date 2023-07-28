@@ -1,0 +1,47 @@
+ HÁ VARIOS TIPOS DE ERROS:
+    *sintático
+    *semantico
+    *exceção ex:Name error, Valuer error ...
+
+TRATANDO EXCEÇÕES:
+
+    try:(tente)
+        código
+        código
+    (erro genérico)except:(se não)
+        código falhou
+        código falhou
+    (opcional) else:
+        código deu certo
+        código deu certo
+   (opcional) finally: (finalmente)
+        certo/errado
+        sempre acontece
+
+EXEMPLO:
+    try:
+        a = int(input("Numerador:")
+        b = int(input("Denominador:")
+       r = a /b
+    except:
+        print(f"Problema encontrado foi {erro.__class__}")
+    else:
+        print(f"Resultado {r}")
+    finally:
+        print("Até Logo")
+
+
+    OBS: para cada try pode ter um except para cada erro
+
+    try:
+    except TypeError:
+    except ValueError
+    .       .       .
+    .       .       .
+    .       .       .
+    else:
+    finally:
+
+
+    
+
