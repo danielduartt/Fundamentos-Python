@@ -1,0 +1,25 @@
+MODULARIZAÇÃO
+    *Dividir um programa grande
+    *Aumentar a legibilidade
+    *Facilita a Manutenção do sistema
+
+SINTAXE:
+    import xxxxxx.py
+    (posso criar os módulos que ja existem e os que eu posso criar)
+
+VANTAGENS:
+    *Organização
+    *Manutenção
+    *Ocultação do código detalhado
+    *Reutilizar códigos me outros projetos
+
+-------------------------------- PACOTE ------------------------------------------
+BIBLIOTECA = PACOTE
+pasta que contem módulos, separadas por assuntos
+
+Varias funções e módulos separados por assuntos
+
+CRIAR PACOTE:
+    criar uma pasta e separa em pastas menores
+        __init__.py => em cada pasta
+        
