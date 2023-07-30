@@ -16,4 +16,3 @@ precos = [100, 500, 10, 25]
 #o map aplica uma função em todos os valores de uma lista
 impostos = list(map(lambda x: x * 0.3, precos))#to dizendo pra passar os valores de precos, na função atrás delas
                                                 # nesse caso é a função lambda
-                                                
